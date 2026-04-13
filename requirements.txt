@@ -7,3 +7,4 @@ torchvision
 Pillow
 gdown
 scikit-learn
+joblib
