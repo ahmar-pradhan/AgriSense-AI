@@ -6,6 +6,7 @@ import torch.nn as nn
 from torchvision import models, transforms
 from PIL import Image
 import pickle
+import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 import json
@@ -48,7 +49,7 @@ def load_disease_model():
 @st.cache_resource
 def load_yield_model():
     with open(YIELD_MODEL_PATH, "rb") as f:
-        return pickle.load(f)
+        return joblib.load(YIELD_MODEL_PATH)
 
 
 @st.cache_resource
