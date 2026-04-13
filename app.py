@@ -1,4 +1,5 @@
 import numpy as np
+import sklearn
 import torch.nn.functional as F
 import streamlit as st
 import torch
