@@ -1,9 +1,9 @@
 streamlit
-gdown
-torch
-torchvision
-pillow
+numpy
 pandas
 matplotlib
+torch
+torchvision
+Pillow
+gdown
 scikit-learn
-numpy
